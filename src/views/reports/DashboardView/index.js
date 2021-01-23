@@ -13,6 +13,7 @@ import TasksProgress from './TasksProgress';
 import TotalCustomers from './TotalCustomers';
 import TotalProfit from './TotalProfit';
 import TrafficByDevice from './TrafficByDevice';
+import News from './News';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,6 +37,15 @@ const Dashboard = () => {
           container
           spacing={3}
         >
+          <Grid
+            item
+            lg={12}
+            sm={12}
+            xl={12}
+            xs={12}
+          >
+            <News />
+          </Grid>
           <Grid
             item
             lg={3}
