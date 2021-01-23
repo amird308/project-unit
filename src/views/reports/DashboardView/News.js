@@ -9,7 +9,7 @@ import {
 const News = () => {
   const [news, setNews] = useState([]);
   const getApi = () => {
-    fetch('http://newsapi.org/v2/top-headlines?country=us&apiKey=63128d32a7354e979bbe04702ed07e98')
+    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=63128d32a7354e979bbe04702ed07e98')
       .then((response) => {
         return response.json();
       }).then((data) => {
