@@ -26,7 +26,7 @@ const News = () => {
         container
         spacing={3}
       >
-        {news.map((ne) => {
+        {news?.map((ne) => {
           return (ne.urlToImage ?
             <Grid
                  item
